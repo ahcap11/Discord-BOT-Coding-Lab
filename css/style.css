@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+* {
+    background-color: #36393f;
+}
+
+body {
+    background-color: #36393f;
+}
+
+.content {
+    padding-top: 40px;
+}
+
+.header {
+    background-color: #36393f;
+    height: 55px;
+    color: white;
+    font-family: 'Akshar', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    /* border-bottom: 1px solid white; */
+}
+
+.header-menu-button {
+    border-radius: 15px;
+    border: 2px solid white;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-right: 1%;
+}
+
+.header-menu-button-add {
+    border-radius: 15px;
+    border: 2px solid white;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-right: 1%;
+    background-color: linear-gradient(#a764ed, #e292aa);
+}
+
+.header-left-menu {
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.header-menu-button:hover {
+    background-color : #454950;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color : #45495000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color : #45495000;
+}
+
+.content-welcome {
+    font-size: 18pt;
+    width: 500px;
+    background-image: linear-gradient(#a764ed, #e292aa);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    float: left;
+    margin: 0px 125px 5px 0px;
+}
+
+.content-welcome-description {
+    /* padding-top: 25px; */
+    font-size: 17pt;
+    background: -webkit-linear-gradient(#a764ed, #e292aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    color: white;
+}
+
+.feedback-form { 
+    width: 400px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin-left: 50%;
+    left: -200px;
+    margin: 10px auto 0px auto;
+}
